@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your profile to Kalakaar Film Casting & Event Management - Join our talent network">
+    <meta name="keywords" content="submit profile, casting audition, talent submission, actor portfolio, model portfolio">
+    <title>Submit Your Profile | Kalakaar Film Casting & Event Management</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Submit Your Profile | Kalakaar Film Casting">
+    <meta property="og:description" content="Join our talent network and get discovered by top casting directors and brands.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kalakaar-casting.com/submit.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/submit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="index.html" style="color: inherit; text-decoration: none;"><img id="siteLogoImg" alt="Logo" style="display:none;height:32px;width:auto;vertical-align:middle;margin-right:10px;"><span data-setting="header_name">Kalakaar</span></a></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="submit.html" class="nav-link cta-btn">Submit Profile</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Submit Your Profile</h1>
+                <p>Join our talent network and get discovered by top casting directors and brands</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submit Form Section -->
+    <section class="submit-section">
+        <div class="container">
+            <div class="submit-form-container">
+                <div class="form-intro">
+                    <h2>Become Part of Kalakaar</h2>
+                    <p>We're always looking for talented individuals to join our network. Fill out the form below and our team will review your profile.</p>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Industry Exposure</h4>
+                            <p>Get discovered by top casting directors and production houses</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-briefcase"></i>
+                            <h4>Career Opportunities</h4>
+                            <p>Access to exclusive auditions and casting calls</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Professional Development</h4>
+                            <p>Workshops and training sessions to enhance your skills</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="profileForm" class="profile-form">
+                    <!-- Personal Information -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-user"></i> Personal Information</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dob">Date of Birth *</label>
+                                <input type="date" id="dob" name="dob" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender *</label>
+                                <select id="gender" name="gender" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Location (City) *</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Mumbai, Delhi, Bangalore" required>
+                        </div>
+                    </div>
+
+                    <!-- Professional Information -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-briefcase"></i> Professional Information</h3>
+                        
+                        <div class="form-group">
+                            <label for="category">Talent Category *</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select Category</option>
+                                <option value="actor">Actor</option>
+                                <option value="model">Model</option>
+                                <option value="dancer">Dancer</option>
+                                <option value="influencer">Influencer</option>
+                                <option value="singer">Singer</option>
+                                <option value="comedian">Comedian</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Years of Experience *</label>
+                            <select id="experience" name="experience" required>
+                                <option value="">Select Experience</option>
+                                <option value="0-1">0-1 years (Beginner)</option>
+                                <option value="1-3">1-3 years</option>
+                                <option value="3-5">3-5 years</option>
+                                <option value="5-10">5-10 years</option>
+                                <option value="10+">10+ years (Experienced)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="skills">Skills & Expertise *</label>
+                            <textarea id="skills" name="skills" rows="4" placeholder="List your skills, expertise, and any special talents..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="languages">Languages Known *</label>
+                            <input type="text" id="languages" name="languages" placeholder="e.g., Hindi, English, Marathi, Tamil" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bio">Bio/About Yourself *</label>
+                            <textarea id="bio" name="bio" rows="5" placeholder="Tell us about yourself, your background, and what makes you unique..." required></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Physical Attributes -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-ruler"></i> Physical Attributes</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="height">Height (cm)</label>
+                                <input type="number" id="height" name="height" placeholder="e.g., 175">
+                            </div>
+                            <div class="form-group">
+                                <label for="weight">Weight (kg)</label>
+                                <input type="number" id="weight" name="weight" placeholder="e.g., 70">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="eyeColor">Eye Color</label>
+                                <input type="text" id="eyeColor" name="eyeColor" placeholder="e.g., Brown, Blue, Green">
+                            </div>
+                            <div class="form-group">
+                                <label for="hairColor">Hair Color</label>
+                                <input type="text" id="hairColor" name="hairColor" placeholder="e.g., Black, Brown, Blonde">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Upload -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-camera"></i> Portfolio</h3>
+                        
+                        <div class="form-group">
+                            <label for="profilePhoto">Profile Photo *</label>
+                            <input type="file" id="profilePhoto" name="profilePhoto" accept="image/*" required>
+                            <small>Upload a clear, professional headshot (JPG/PNG, max 5MB)</small>
+                            <div class="file-preview-container">
+                                <img id="profilePhotoPreview" class="file-preview" alt="Profile Photo Preview">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="portfolioPhotos">Portfolio Photos</label>
+                            <input type="file" id="portfolioPhotos" name="portfolioPhotos" accept="image/*" multiple>
+                            <small>Upload 3-5 additional photos showing different looks (JPG/PNG, max 5MB each)</small>
+                            <div class="file-preview-container" id="portfolioPreviewContainer">
+                                <!-- Preview images will be added here -->
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="showreel">Showreel/Portfolio Video Link</label>
+                            <input type="url" id="showreel" name="showreel" placeholder="https://youtube.com/watch?v=...">
+                            <small>Link to your showreel, portfolio video, or audition tape</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="socialMedia">Social Media Links</label>
+                            <textarea id="socialMedia" name="socialMedia" rows="3" placeholder="Instagram: @username&#10;Facebook: facebook.com/username&#10;YouTube: youtube.com/channel/..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-calendar"></i> Availability</h3>
+                        
+                        <div class="form-group">
+                            <label for="availability">Availability Status *</label>
+                            <select id="availability" name="availability" required>
+                                <option value="">Select Availability</option>
+                                <option value="immediately">Available Immediately</option>
+                                <option value="2weeks">Available in 2 weeks</option>
+                                <option value="1month">Available in 1 month</option>
+                                <option value="3months">Available in 3 months</option>
+                                <option value="negotiable">Negotiable</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="workType">Preferred Work Type *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="film">
+                                    <span class="checkmark"></span>
+                                    Film
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="television">
+                                    <span class="checkmark"></span>
+                                    Television
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="commercial">
+                                    <span class="checkmark"></span>
+                                    Commercial/Ads
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="print">
+                                    <span class="checkmark"></span>
+                                    Print/Editorial
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="events">
+                                    <span class="checkmark"></span>
+                                    Events/Shows
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="workType" value="digital">
+                                    <span class="checkmark"></span>
+                                    Digital Content
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terms and Submit -->
+                    <div class="form-section">
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="#" class="terms-link">Terms and Conditions</a> and consent to my information being used for casting purposes *
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                I would like to receive updates about auditions and opportunities
+                            </label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-secondary" onclick="window.history.back()">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Submit Profile</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-check-circle"></i> Profile Submitted Successfully!</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for submitting your profile to Kalakaar. Our team will review your application and get back to you within 7-10 working days.</p>
+                <p><strong>What happens next?</strong></p>
+                <ul>
+                    <li>Our team will review your profile and portfolio</li>
+                    <li>You may be contacted for an audition or interview</li>
+                    <li>Selected profiles will be added to our talent database</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="window.location.href='index.html'">Return to Home</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kalakaar</h3>
+                    <p>Professional Film Casting & Event Management Agency. Discovering talent and creating memorable experiences.</p>
+                    <div class="footer-social">
+                        <a data-social="instagram" href="https://instagram.com/kalakaar_film_casting" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="submit.html">Submit Profile</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Film & TV Casting</a></li>
+                        <li><a href="index.html#services">Model Casting</a></li>
+                        <li><a href="index.html#services">Event Management</a></li>
+                        <li><a href="index.html#services">Portfolio Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info-list">
+                        <li><i class="fas fa-phone"></i> <span data-setting="site_phone">+91 98765 43210</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-setting="site_email">info@kalakaar-casting.com</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-setting="site_address">123 Film Nagar, Andheri West, Mumbai</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kalakaar Film Casting & Event Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/settings-loader.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/submit.js"></script>
+</body>
+</html>
